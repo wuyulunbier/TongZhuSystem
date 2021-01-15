@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6D4E328B25B00B69000FC7F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E328A25B00B69000FC7F4 /* AppDelegate.m */; };
-		6D4E328E25B00B69000FC7F4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E328D25B00B69000FC7F4 /* SceneDelegate.m */; };
 		6D4E329125B00B69000FC7F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E329025B00B69000FC7F4 /* ViewController.m */; };
 		6D4E329425B00B69000FC7F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E329225B00B69000FC7F4 /* Main.storyboard */; };
 		6D4E329625B00B6B000FC7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E329525B00B6B000FC7F4 /* Assets.xcassets */; };
@@ -16,6 +15,8 @@
 		6D4E329C25B00B6B000FC7F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E329B25B00B6B000FC7F4 /* main.m */; };
 		6D4E32A625B00B6B000FC7F4 /* TongZhuSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E32A525B00B6B000FC7F4 /* TongZhuSystemTests.m */; };
 		6D4E32B125B00B6B000FC7F4 /* TongZhuSystemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E32B025B00B6B000FC7F4 /* TongZhuSystemUITests.m */; };
+		6D4E32C625B013FD000FC7F4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E32C525B013FD000FC7F4 /* WebViewController.m */; };
+		E350E7952BC3C66DF016EBA1 /* Pods_TongZhuSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AAB1B8E581C87B518C0320 /* Pods_TongZhuSystem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		6D4E328625B00B69000FC7F4 /* TongZhuSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongZhuSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4E328925B00B69000FC7F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D4E328A25B00B69000FC7F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6D4E328C25B00B69000FC7F4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		6D4E328D25B00B69000FC7F4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		6D4E328F25B00B69000FC7F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6D4E329025B00B69000FC7F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6D4E329325B00B69000FC7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,12 @@
 		6D4E32AC25B00B6B000FC7F4 /* TongZhuSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TongZhuSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4E32B025B00B6B000FC7F4 /* TongZhuSystemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TongZhuSystemUITests.m; sourceTree = "<group>"; };
 		6D4E32B225B00B6B000FC7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4E32C425B013FD000FC7F4 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		6D4E32C525B013FD000FC7F4 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		6DA0167025B1884B00F88A00 /* TongZhuSystem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TongZhuSystem.entitlements; sourceTree = "<group>"; };
+		81AD9C8F86F8A6838B76C96F /* Pods-TongZhuSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TongZhuSystem.debug.xcconfig"; path = "Target Support Files/Pods-TongZhuSystem/Pods-TongZhuSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		9633F1442672AAF6D1A4C5C9 /* Pods-TongZhuSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TongZhuSystem.release.xcconfig"; path = "Target Support Files/Pods-TongZhuSystem/Pods-TongZhuSystem.release.xcconfig"; sourceTree = "<group>"; };
+		E9AAB1B8E581C87B518C0320 /* Pods_TongZhuSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TongZhuSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E350E7952BC3C66DF016EBA1 /* Pods_TongZhuSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260FDBDDBE287B2867C993EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81AD9C8F86F8A6838B76C96F /* Pods-TongZhuSystem.debug.xcconfig */,
+				9633F1442672AAF6D1A4C5C9 /* Pods-TongZhuSystem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4752CD47523B22F61869C180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9AAB1B8E581C87B518C0320 /* Pods_TongZhuSystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6D4E327D25B00B69000FC7F4 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +111,8 @@
 				6D4E32A425B00B6B000FC7F4 /* TongZhuSystemTests */,
 				6D4E32AF25B00B6B000FC7F4 /* TongZhuSystemUITests */,
 				6D4E328725B00B69000FC7F4 /* Products */,
+				260FDBDDBE287B2867C993EB /* Pods */,
+				4752CD47523B22F61869C180 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +129,9 @@
 		6D4E328825B00B69000FC7F4 /* TongZhuSystem */ = {
 			isa = PBXGroup;
 			children = (
+				6DA0167025B1884B00F88A00 /* TongZhuSystem.entitlements */,
 				6D4E328925B00B69000FC7F4 /* AppDelegate.h */,
 				6D4E328A25B00B69000FC7F4 /* AppDelegate.m */,
-				6D4E328C25B00B69000FC7F4 /* SceneDelegate.h */,
-				6D4E328D25B00B69000FC7F4 /* SceneDelegate.m */,
 				6D4E328F25B00B69000FC7F4 /* ViewController.h */,
 				6D4E329025B00B69000FC7F4 /* ViewController.m */,
 				6D4E329225B00B69000FC7F4 /* Main.storyboard */,
@@ -115,6 +139,8 @@
 				6D4E329725B00B6B000FC7F4 /* LaunchScreen.storyboard */,
 				6D4E329A25B00B6B000FC7F4 /* Info.plist */,
 				6D4E329B25B00B6B000FC7F4 /* main.m */,
+				6D4E32C425B013FD000FC7F4 /* WebViewController.h */,
+				6D4E32C525B013FD000FC7F4 /* WebViewController.m */,
 			);
 			path = TongZhuSystem;
 			sourceTree = "<group>";
@@ -144,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D4E32B525B00B6B000FC7F4 /* Build configuration list for PBXNativeTarget "TongZhuSystem" */;
 			buildPhases = (
+				4A841034AB4D81046A64A0A2 /* [CP] Check Pods Manifest.lock */,
 				6D4E328225B00B69000FC7F4 /* Sources */,
 				6D4E328325B00B69000FC7F4 /* Frameworks */,
 				6D4E328425B00B69000FC7F4 /* Resources */,
+				D6CB1E3561A15584F38E833A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,15 +289,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A841034AB4D81046A64A0A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TongZhuSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CB1E3561A15584F38E833A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TongZhuSystem/Pods-TongZhuSystem-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TongZhuSystem/Pods-TongZhuSystem-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TongZhuSystem/Pods-TongZhuSystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D4E328225B00B69000FC7F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6D4E329125B00B69000FC7F4 /* ViewController.m in Sources */,
+				6D4E32C625B013FD000FC7F4 /* WebViewController.m in Sources */,
 				6D4E328B25B00B69000FC7F4 /* AppDelegate.m in Sources */,
 				6D4E329C25B00B6B000FC7F4 /* main.m in Sources */,
-				6D4E328E25B00B69000FC7F4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,37 +508,47 @@
 		};
 		6D4E32B625B00B6B000FC7F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AD9C8F86F8A6838B76C96F /* Pods-TongZhuSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TongZhuSystem/TongZhuSystem.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20210117;
 				DEVELOPMENT_TEAM = P7QPGYBJ45;
 				INFOPLIST_FILE = TongZhuSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tonghzu.TongZhuSystem;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongzhusystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6D4E32B725B00B6B000FC7F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9633F1442672AAF6D1A4C5C9 /* Pods-TongZhuSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TongZhuSystem/TongZhuSystem.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20210117;
 				DEVELOPMENT_TEAM = P7QPGYBJ45;
 				INFOPLIST_FILE = TongZhuSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tonghzu.TongZhuSystem;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongzhusystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
